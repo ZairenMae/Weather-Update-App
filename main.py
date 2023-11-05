@@ -2,12 +2,12 @@ import customtkinter
 from PIL import Image
 import datetime
 
-# YOUR open weather api key = 4cd3973b9696a86169cb13dbfba173c8
+# YOUR open weather api key = YOUR API KEY
 from pyowm.owm import OWM
 from pyowm.utils.config import get_default_config
 configDict=get_default_config()
 configDict['language']='en'
-owmKey='4cd3973b9696a86169cb13dbfba173c8'
+owmKey='YOUR API KEY'
 
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("blue")
